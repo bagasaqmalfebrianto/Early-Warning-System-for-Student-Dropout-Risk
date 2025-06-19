@@ -3,10 +3,7 @@ import pickle
 import numpy as np
 import pandas as pd
 import data_preprocessing
-from data_preprocessing import data_preprocessing, encoder_Marital_status, encoder_Application_mode, encoder_Course, \
-    encoder_Daytime_evening_attendance, encoder_Previous_qualification, encoder_Mothers_qualification, \
-    encoder_Fathers_qualification, encoder_Fathers_occupation, encoder_Mothers_occupation, encoder_Displaced, \
-    encoder_Debtor, encoder_Tuition_fees_up_to_date, encoder_Gender, encoder_Scholarship_holder
+from data_preprocessing import data_preprocessing, encoder_Marital_status, encoder_Application_mode, encoder_Course, encoder_Daytime_evening_attendance, encoder_Previous_qualification, encoder_Mothers_qualification, encoder_Fathers_qualification, encoder_Fathers_occupation, encoder_Mothers_occupation, encoder_Displaced, encoder_Debtor, encoder_Tuition_fees_up_to_date, encoder_Gender, encoder_Scholarship_holder
 
 from prediction import prediction
 
